@@ -3,6 +3,7 @@ package paqueteMasterMind;
 import java.io.IOException;
 
 public class MasterMind extends SuperMasterMind {
+	/**/
 	
 	
 	private static final String INICIALCOLOR = "Escribe la inicial del color n�mero ";

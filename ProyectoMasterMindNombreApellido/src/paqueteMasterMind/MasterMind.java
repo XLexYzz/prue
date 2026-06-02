@@ -3,26 +3,6 @@ package paqueteMasterMind;
 import java.io.IOException;
 
 public class MasterMind extends SuperMasterMind {
-	/*Extiende la clase SuperMasterMind para implementar la lógica específica del juego MasterMind.
-Esta clase gestiona la generación de la combinación secreta de colores que el jugador debe adivinar, así como el seguimiento del número de partidas jugadas.
-
-<p>La combinación secreta se representa como un arreglo de caracteres, donde cada carácter representa un color mediante su inicial.
-Los colores posibles son Rojo ('R'), Verde ('V'), Azul ('A'), Blanco ('B'), Negro ('N'), Morado ('M'), Gris ('G') y Salmón ('S').<p>
-
-<p>La clase también inicializa el tablero de juego y el array de resultados heredados de la clase SuperMasterMind, preparando el juego para comenzar. Además, mantiene un contador estático del número de partidas jugadas.<p>
-
-<p>Esta clase incluye los siguientes atributos:<p>
-<ul>
-<li>INICIALCOLOR: Mensaje para solicitar la inicial del color al usuario.<li>
-   <li>combinacion: Array que almacena la combinación secreta de colores.<li>
-   <li>numPartidas: Contador estático de las partidas jugadas.<li>
-   <li>quepena: Mensaje de consolación para el jugador.<li>
-   <li>quebien: Mensaje de felicitación para el jugador.<li>
-<ul>
-
-Version:
-06.02
-	*/
 	
 	
 	private static final String INICIALCOLOR = "Escribe la inicial del color n�mero ";
